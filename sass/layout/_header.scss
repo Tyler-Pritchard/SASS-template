@@ -7,7 +7,7 @@
     background-size: cover;
     background-position: top;
     position: relative;
-
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
     &__logo-box {
@@ -26,5 +26,12 @@
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+    }
+
+    &__heading {
+        font-size: 2.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: $color-white;
     }
 }
