@@ -7,7 +7,6 @@
 @import "base/typography";
 @import "base/utilities";
 
-@import "pages/home";
 
 @import "components/bg-video";
 @import "components/button";
@@ -15,6 +14,9 @@
 @import "components/composition";
 @import "components/feature-box";
 @import "components/story";
+@import "components/form";
 
 @import "layout/grid";
 @import "layout/header";
+
+@import "pages/home";
