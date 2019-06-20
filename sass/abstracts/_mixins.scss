@@ -26,6 +26,8 @@ $breakpoint arguement choices:
 - tab-land
 -big-desktop
 
+ORDER: Base + typography > general layout + rid > page layout > components
+
 1em = 16px
 */
 
@@ -35,7 +37,7 @@ $breakpoint arguement choices:
             @content
         }
 
-        ;
+        ; //600px
     }
 
     @if $breakpoint==tab-port {
@@ -43,7 +45,7 @@ $breakpoint arguement choices:
             @content
         }
 
-        ;
+        ; //900px
     }
 
     @if $breakpoint==tab-land {
@@ -51,7 +53,7 @@ $breakpoint arguement choices:
             @content
         }
 
-        ;
+        ; //1200px
     }
 
     @if $breakpoint==big-desktop {
@@ -59,7 +61,7 @@ $breakpoint arguement choices:
             @content
         }
 
-        ;
+        ; //1800px
     }
 
 
