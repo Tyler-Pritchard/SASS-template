@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/Tyler-Pritchard/Natours2#readme",
   "dependencies": {
-    "autoprefixer": "^9.6.1"
+    "autoprefixer": "^9.6.1",
+    "heroku": "^7.28.0",
+    "php": "0.0.1"
   },
   "devDependencies": {
     "concat": "^1.0.3",
